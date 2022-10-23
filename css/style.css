@@ -10,7 +10,7 @@
     }
 
 .container-fluid{
-background-color: white;
+  background-color: #ffdfdf;
 }
 
 #areas {
@@ -25,16 +25,20 @@ font-size: 25px;
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(0,0,0,.9);
-    border: solid black 1px;
+    
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.55);
-    border: solid black 1px;
-    background-color: beige;
+    color: rgba(0,0,0,.9);
+    
+    
     text-align: center;
-}
+    font-family: 'Quicksand', sans-serif;
 
+}
+body{
+  background-color: #EFEFEF;
+}
 
 /* INDEX */
 * {
@@ -53,6 +57,7 @@ font-weight: bold;
 
 .negrita div {
 padding: 1%;
+font-size: 30px;
 }
 
 #comienzo ul li a {
@@ -68,11 +73,13 @@ padding: 2%;
 
 #home {
 background-color: #EFEFEF;
+
 }
 
 header {
 
 justify-content: space-between;
+
 }
 
 nav ul {
@@ -87,7 +94,7 @@ padding: 0.3%;
 }
 
 .barra_navegacion {
-background-color: #EFEFEF;
+  background-color: #ffdfdf;
 }
 
 .grid-layout {
@@ -98,6 +105,7 @@ width: 80%;
 margin: 0 auto;
 padding: 20px;
 border: 1px solid black;
+background-color: #fdf9c4
 }
 
 .grid-layout01 img{
@@ -118,6 +126,7 @@ border: 1px solid black;
 margin: 5%;
 width: 90%;
 height: 95%;
+background-color: #ffda9e;
 }
 
 #logo {
@@ -147,6 +156,8 @@ font-family: 'Quicksand', sans-serif;
 text-align: center;
 margin: 1%;
 padding: 1%;
+font-family: 'Crimson Pro', serif;
+
 }
 
 #areas {
@@ -155,11 +166,14 @@ display: flex;
 font-size: 30px;
 justify-content: center;
 text-decoration: underline;
+font-family: 'Quicksand', sans-serif;
 }
 
 #txt {
 display: flex;
 margin: 2%;
+font-family: 'Crimson Pro', serif;
+text-align: center;
 
 }
 
@@ -167,6 +181,8 @@ margin: 2%;
 margin: 3%;
 display: flex;
 border: 1px solid #919191;
+font-family: 'Quicksand', sans-serif;
+background-color: #fdf9c4;
 }
 
 #centro img {
@@ -187,6 +203,7 @@ justify-content: space-between;
 #dec_cajas{
 border: solid #919191 1px;
 margin: 5%;
+background-color: #fdf9c4;
 }
 
 .img {
@@ -205,10 +222,12 @@ border: 1px solid black;
 padding-top: 2%;
 display: flex;
 justify-content:center;
+font-family: 'Crimson Pro', serif;
 }
 
 #cliente_abajo {
 text-align: center;
+font-family: 'Crimson Pro', serif;
 }
 
 .grid-layout-cliente {
@@ -236,8 +255,10 @@ background-color: white;
 
 /* STAFF */
 #centrado {
+display: grid;
 text-align: center;
 margin: 2%;
+font-family: 'Crimson Pro', serif;
 }
 
 #centrado p {
@@ -251,11 +272,13 @@ justify-content: center;
 
 #lista {
 margin: 5%;
-background-color: #f7f7f7;
+background-color: #fdf9c4;
 display: flex;
 justify-content: center;
 padding: 2%;
 border: 1px black dotted;
+font-family: 'Crimson Pro', serif;
+font-size: 19px;
 }
 
 #lista ul li {
@@ -272,6 +295,7 @@ margin: 2%;
 
 #centrado p {
 padding: 1%;
+text-align: center;
 }
 
 #img_staff {
@@ -281,7 +305,7 @@ justify-content: center;
 
 #lista {
 margin: 5%;
-background-color: #fde5e6;
+background-color: #fdf9c4;
 display: flex;
 justify-content: center;
 padding: 2%;
@@ -296,9 +320,7 @@ list-style-type: square;
 footer {
 display: flex;
 justify-content: space-around;
-border: 1px solid black;
-margin: 0.1%;
-background-color: #FFECEC;
+background-color: #ffdfdf;
 }
 
 #titulos_footer{
